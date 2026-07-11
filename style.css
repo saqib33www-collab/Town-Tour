@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+#ramesh {
+  background-image: url("images/image1.png");
+  height: 600px;
+  border: 15px solid #7c8d8c;
+  border-radius: 10px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Saira Stencil';
+}
+
+#main-head {
+  background: #00b4d8;
+  padding: 10px 30px;
+  border-radius: 20px;
+  color: #d4dfe5;
+}
+
+.about {
+  background: #669bbc;
+  max-width: 500px;
+  width: 90%;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+#images {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  gap: 60px;
+  width: 1000px;
+  margin-top: 100px;
+  font-family: 'system-ui';
+}
+
+.img { 
+  width: 200px;
+  height: 150px;
+  border: 2px solid black;
+  border-radius: 50%;
+ }
+
+ .back1 {
+   background: #f0f8ed;
+   padding: 50px;
+   font-family: 'system-ui';
+ }
+
+ #card {
+  display: flex;
+  padding: 20px;
+  width: 400px;
+  border-bottom: 5px solid black; 
+  justify-content: space-around;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: auto;
+  background: #9bcccc;
+  border-radius: 10px;
+ }
+
+ .img-card {
+   width: 150px;
+ }
+
+ .elements {
+   width: 200px;
+ }
+
